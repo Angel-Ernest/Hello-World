@@ -35,6 +35,7 @@ check(R2)
 time.sleep(1)
 
 R3 = input ("The gravitational pull of the gravity in Earth is around (to the nearest tenth) ____ m/s")
+
 check(R3)
 
 print("Your score is," , score)
