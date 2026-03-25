@@ -19,4 +19,4 @@ time.sleep(1)
 print("Creating story...")
 time.sleep(3)
 #The story
-print("In" , country , "there was a kid called", name, ".", name , "feared" , fear , ". But one day he fought it and won.", hero , "appeared and reawarded", name, "with something incredible,", hero , "gifted", name , "a superpower! Out of nowhere," , name, "recieved the power of" , power , "! Since that day, he became", supername , "!")
+print("In" , country , "there was a kid called", name + ".", name , "feared" , fear + ". But one day he fought it and won.", hero , "appeared and reawarded", name, "with something incredible,", hero , "gifted", name , "a superpower! Out of nowhere," , name, "recieved the power of" , power + "! Since that day, he became", supername + "!")
