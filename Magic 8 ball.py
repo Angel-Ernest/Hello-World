@@ -9,23 +9,23 @@ print("OK,", Name)
 
 def check(x):
     if x == 1:
-        print("Yes - definitely")
+        print("Magic 8 ball answer: Yes - definitely")
     elif x == 2:
-        print("It is decidedly so")
+        print("Magic 8 ball answer: It is decidedly so")
     elif x == 3:
-        print("Without a doubt")
+        print("Magic 8 ball answer: Without a doubt")
     elif x == 4:
-        print("Reply hazy, try again")
+        print("Magic 8 ball answer: Reply hazy, try again")
     elif x == 5:
-        print("Ask again later")#last one i did
+        print("Magic 8 ball answer: Ask again later")
     elif x == 6:
-        print("As I see it, yes")
+        print("Magic 8 ball answer: Better not tell you now")
     elif x == 7:
-        print("Most likely")
+        print("Magic 8 ball answer: My sources say no")
     elif x == 8:
-        print("Outlook good")
+        print("Magic 8 ball answer: Outlook not so good")
     elif x == 9:
-        print("Yes")
+        print("Magic 8 ball answer: Very doubtful")
 
 while True:
   input (Name + ", please do a yes or no question. ")
