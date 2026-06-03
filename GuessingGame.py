@@ -10,7 +10,7 @@ guess_limit = 3
 while True:
     if guess_count < guess_limit:
         current_guess = input("Guess a number betwee 0 and 9: ")
-        if current_guess = x
+        if current_guess == x:
             break
-        else 
-            
+        else:
+            print("hi")
