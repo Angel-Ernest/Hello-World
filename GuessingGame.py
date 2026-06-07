@@ -5,9 +5,9 @@ x = random.randint(0,9) #Do a random number between 0 and 9
 
 guess_count = 0
 
-guess_limit = 5
+guess_limit = 3
 
-print("Welcome to my guessing game! \n You will have 5 tries to guess")
+print("Welcome to my guessing game! \n You will have 3 tries to guess")
 time.sleep(1)
 while True:
     if guess_count < guess_limit:
@@ -24,5 +24,4 @@ while True:
                 print("Hint: The number is lower")
     else:
         print("Sorry, you lost")
-        print(x)
         break 

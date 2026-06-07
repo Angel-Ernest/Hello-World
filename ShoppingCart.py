@@ -5,7 +5,8 @@ Cart ={
 }
 
 Stock = {
-    "Apple" : 0.75,     "Bread" : 4.50, 
+    "Apple" : 0.75,    
+    "Bread" : 4.50, 
     "Carrot" : 0.50,
     "Donut" : 1.25,
     "Eggs" : 3.99,
@@ -14,4 +15,17 @@ Stock = {
     "Honey" : 8.00,
 }
 
-print("Heres's what we have in stock: ", Stock)
+print("Heres's what we have in stock: ")
+for key, value in Stock.items():
+    print(f"{key}: ${value}") #f allows to the code to replace the word that is in the brackets with the value of the variable
+
+time.sleep(1)
+
+T = True
+
+while T:
+    item = input("What would you like to buy? (Or type 'checkout' to finish) ")
+    if item in Stock:
+        Cart[item] = Stock[item] #Copy the item written to the other dictionary
+    elif item == "checkout":
+        T = False
